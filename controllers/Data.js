@@ -1,5 +1,5 @@
 const get  = (req,res)=>{
-    res.send()
+    res.send(
 
     [{
         id:"1",
@@ -103,7 +103,7 @@ const get  = (req,res)=>{
             name:"Apple AirPods Pro",
             img :"https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MWP22?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1591634795000",
             price:349
-        }        
-    ]
+        }]
+        )
 }
     module.exports.ApiController = get
